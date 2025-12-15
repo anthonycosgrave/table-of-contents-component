@@ -1,4 +1,4 @@
-# '<table-of-contents>' web component
+# 'table-of-contents' web component
 A small, framework-agnostic Table of Contents web component built for a specific use case: generating an accessible table of contents for long-form articles in an Eleventy / FastHTML site.
 
 This component was created while I was working on the FastHTML web accessibility series. I tried several existing Table of Contents solutions commonly recommended for Eleventy, but ran into repeated issues. In practice, it was quicker and more reliable to build a minimal component to do exactly what I needed. You can see if in action on any of the pages here: ["Web Accessibility with FastHTML"](https://anthonycosgrave.github.io/fasthtml-web-a11y/).
@@ -58,3 +58,4 @@ Due to time, there were some intentional trade-offs:
 ## License
 
 Code is licensed under the MIT License. See LICENSE file for details.
+

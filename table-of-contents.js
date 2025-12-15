@@ -45,6 +45,9 @@ class TableOfContents extends HTMLElement {
             .toc li::before { content: attr(data-number) ". "; font-weight: bold; }
             nav details { border: 1px solid #000; border-radius: 4px; padding: 0.5em; margin: 1em 0; }
             nav summary { font-weight: bold; cursor: pointer; padding: 0.25em 0; }
+            @media (prefers-color-scheme: dark) {
+        		nav details { border-color: #fff; }
+    		}
         `;
 			document.head.appendChild(style);
         }
